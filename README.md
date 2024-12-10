@@ -1,2 +1,2 @@
 # aws-free
-was free tier playground
+aws free tier playground
