@@ -2,7 +2,7 @@
 PRIVATE_KEY = private_key.pem
 
 # Terraform output to get the instance public IP
-INSTANCE_IP = $(shell terraform output -raw instance_public_ip)
+INSTANCE_IP = $(shell terraform output -raw ec2_ip)
 
 # SSH target
 ssh:
